@@ -1,0 +1,8 @@
+database:
+    host: db
+    port: 5432
+    user: postgres
+    password: postgres
+    name: postgres
+env: dev
+address: :8080

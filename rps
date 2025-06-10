@@ -1,0 +1,1 @@
+wrk -t4 -c50 -d10s http://localhost:8080/counter/3

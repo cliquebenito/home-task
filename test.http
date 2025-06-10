@@ -1,0 +1,19 @@
+### Create banner
+POST http://localhost:8080/banners
+Content-Type: application/json
+
+{
+  "name": "New Bannwwers"
+}
+
+### Increment counter
+GET http://localhost:8080/counter/6
+
+### Load stats
+POST http://localhost:8080/stats/6
+Content-Type: application/json
+
+{
+  "from": "2025-06-08 18:08:00.000000",
+  "to": "2025-06-11 00:42:00.000000"
+}
